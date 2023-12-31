@@ -56,6 +56,8 @@ public class ToDoList {
         loadTaskList();
 
         scan = new Scanner(System.in);
+        
+        System.out.println("test");
 
         System.out.println("################################################");
         System.out.println("## BIENVENIDO A TO LISTA DE TAREAS PENDIENTES ##");
