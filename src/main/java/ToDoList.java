@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
 import java.util.Locale;
@@ -21,6 +22,7 @@ import java.util.logging.Logger;
  */
 public class ToDoList {
 
+    
     //Variable para control del menú principal.
     private static boolean mainMenu = true;
 
